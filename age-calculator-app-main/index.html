@@ -12,8 +12,15 @@
       <div class="form">
         <label for="bod">Enter the date of birth </label>
         <input id="bod" type="date" />
-        <button id="btn">calculated Age</button>
-        <p id="result">Age calculated</p>
+
+       <button id="btn" class="closing" onClick="javascript:close_clip()">
+          <img src="assets/images/icon-arrow.svg" />
+       </button>
+
+        <p id="result">
+          <h2>-- years</h2>
+          <h2>-- month</h2> 
+          <h2>-- days</h2> </p>
       </div>
     </div>
     <script>
