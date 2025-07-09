@@ -12,7 +12,13 @@ function calcuAge(bdayIn) {
   }
 }
 
-function getAge(bdayFromUser) {
+ffunction getAge(bdayFromUser){
   const Tday = new Date();
   const born = new Date(bdayFromUser);
-}
+  
+  let yAge = Tday.getFullYear() - born.getFullYear();
+  const monthAge = Tday.getMonth() - born.getMonth();
+  if(monthAge < 0 || (month===0 && Tday.getDate() < born.getDate())){
+    yAge --;
+  };
+  return yAge;
