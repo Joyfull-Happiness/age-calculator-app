@@ -39,16 +39,21 @@ input {
   text-transform: uppercase;
   font-weight: 600;
 }
-button {
-  margin: 2rem;
-  background-color: #7143a3;
-  border-radius: 30rem;
-  padding: 1rem 1rem;
-  transition: background-color 0.3s ease;
-  display: flex;
-  justify-content: center;
-  cursor: pointer;
-}
+1. Student Name & Email Address
+2. Date Assignment was Completed
+3. Assigned activity and Technique or Model
+4. Description of What Happened
+ 
+
+    4a. Who participated?
+    4b. Describe the chain of events
+    4c. How did it end?
+
+5. Conclusion
+
+    5a. Describe the result for you and the participant
+    5b. New awareness or insights the exercise brought
+    5c. Ideas about where and how you might use the tool in the future- how the tool is relevant to your professional work or personal goals
 button:hover {
   background-color: #bda7d5;
 }
@@ -73,3 +78,18 @@ h6 {
   display: inline-block;
   text-wrap: row;
 }
+1. Student Name & Email Address
+2. Date Assignment was Completed
+3. Assigned activity and Technique or Model
+4. Description of What Happened
+ 
+
+    4a. Who participated?
+    4b. Describe the chain of events
+    4c. How did it end?
+
+5. Conclusion
+
+    5a. Describe the result for you and the participant
+    5b. New awareness or insights the exercise brought
+    5c. Ideas about where and how you might use the tool in the future- how the tool is relevant to your professional work or personal goals
